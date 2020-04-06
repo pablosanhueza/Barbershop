@@ -1,0 +1,44 @@
+.hero-section {
+  height: 702px;
+  background-image: url('../images/post-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  &__text {
+    color: $white;
+    font-family: $playfair-display;
+    font-weight: $black;
+    font-size: $xx-large;
+    padding: 250px 380px;
+  }
+}
+
+.main-section {
+  font-family: $roboto;
+  font-size: $medium;
+  font-weight: $light;
+
+}
+
+.naomi {
+  border: 1px solid gray;
+  &__photo {
+    border-radius: 1000px;
+  }
+  &__name {
+    font-family: $playfair-display;
+    font-size: $x-large;
+    font-weight: $black;
+  }
+  &__undername {
+    color: $ruddy-pink;
+    font-family: $roboto;
+    font-size: $medium;
+    font-weight: $light;
+  }
+  &__description {
+    font-family: $roboto;
+    font-size: $small;
+    font-weight: $light;
+  }
+}

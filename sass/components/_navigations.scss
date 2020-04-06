@@ -1,0 +1,16 @@
+.navigation {
+  background-color: $eerie-black;
+  height: 96px;
+  color: $white;
+
+  &__logo {
+    padding-left: 20px;
+    height: 30px;
+    }
+  &__item {
+  color: $white;
+  }
+  &__text {
+  color: $white;
+  }
+}

@@ -1,0 +1,28 @@
+.buttons_section {
+  font-family: $roboto;
+  font-size: $medium;
+  font-weight: $regular;
+
+  &__button {
+    background-color: $nickel;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    color: $white;
+    &:hover {
+      background-color: $platinum;
+    }
+  }
+}
+
+.pagination-section {
+  background-color: $platinum;
+  &__item{
+    background-color: $nickel;
+    padding: .5rem 1rem;
+    border-radius: 25px;
+    color: $white;
+    &:hover {
+      background-color: $platinum;
+    }
+  }
+}
